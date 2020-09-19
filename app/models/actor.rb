@@ -15,7 +15,7 @@ class Actor < ActiveRecord::Base
 
         # method 2 - better version instead of using concat method
         self.characters.collect do |character|
-            "#{character.name} - #{character.show}"
+            "#{character.name} - #{character.show.name}"
         end 
     end 
 
