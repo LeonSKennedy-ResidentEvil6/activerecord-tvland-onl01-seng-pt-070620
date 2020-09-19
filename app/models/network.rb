@@ -5,3 +5,7 @@ class Network < ActiveRecord::Base
     "We're sorry about passing on John Mulaney's pilot"
   end
 end
+
+
+# practice chain building such as...
+# 
